@@ -8,3 +8,4 @@ fp-lib-table
 __pycache__
 .python-version
 \#auto_saved_files#
+*.FCStd1
