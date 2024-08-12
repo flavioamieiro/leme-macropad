@@ -19,7 +19,7 @@ keyboard = KMKKeyboard()
 # -- Keyboard matrix
 # Cols: GP18, GP19, GP20
 # Rows: GP16, GP17
-keyboard.col_pins = (board.GP18, board.GP19, board.GP20)
+keyboard.col_pins = (board.GP20, board.GP19, board.GP18)
 keyboard.row_pins = (board.GP16, board.GP17)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
