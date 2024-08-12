@@ -5,11 +5,14 @@ from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 
 from kmk.modules.encoder import EncoderHandler
+from kmk.modules.layers import Layers
+from kmk.modules.mouse_keys import MouseKeys
 
 from kmk.scanners import DiodeOrientation
 from kmk.extensions.display.ssd1306 import SSD1306
 from kmk.extensions.display import Display, TextEntry
 from kmk.extensions.media_keys import MediaKeys
+
 
 keyboard = KMKKeyboard()
 
@@ -33,12 +36,32 @@ driver = SSD1306(
 
 display = Display(
     display=driver,
-    flip=True
+    flip=False,
 )
 
 display.entries = [
     TextEntry(
-        text="Macropad", x_anchor="M", y_anchor="M", x=display.width/2, y=display.height/2
+        text="Layer: 1",
+        x_anchor="L",
+        y_anchor="T",
+        x=0,
+        y=0,
+        layer=0,
+    ),
+    TextEntry(
+        text="Layer: 2",
+        x_anchor="L",
+        y_anchor="T",
+        x=0,
+        y=0,
+        layer=1,
+    ),
+    TextEntry(
+        text="Macropad",
+        x_anchor="M",
+        y_anchor="M",
+        x=display.width / 2,
+        y=display.height / 2,
     ),
 ]
 
@@ -54,17 +77,34 @@ keyboard.extensions.append(MediaKeys())
 encoder_handler = EncoderHandler()
 encoder_handler.pins = ((board.GP13, board.GP12, board.GP11),)
 
-keyboard.modules = [encoder_handler]
+keyboard.modules = [
+    encoder_handler,
+    Layers(),
+    MouseKeys(),
+]
 
 
 # --- Keymap
 encoder_handler.map = [
-    ((KC.AUDIO_VOL_DOWN, KC.AUDIO_VOL_UP, KC.AUDIO_MUTE), ),
+    # Layer 0
+    ((KC.AUDIO_VOL_DOWN, KC.AUDIO_VOL_UP, KC.AUDIO_MUTE),),
+    # Layer 1
+    ((KC.MW_UP, KC.MW_DOWN, KC.MB_MMB),),
 ]
 
 
 keyboard.keymap = [
-    [KC.F14, KC.F15, KC.F16, KC.F17, KC.F18, KC.F19],
+    # Layer 0
+    [KC.F14, KC.F15, KC.F16, KC.F17, KC.F18, KC.TG(1)],
+    # Layer 1
+    [
+        KC.TRANSPARENT,
+        KC.TRANSPARENT,
+        KC.TRANSPARENT,
+        KC.TRANSPARENT,
+        KC.TRANSPARENT,
+        KC.TG(0),
+    ],
 ]
 
 # keyboard.debug_enabled = True
