@@ -29,3 +29,11 @@ qmk compile -kb leme -km default
 
 which will generate a .uf2 image (in the qmk directory) you can flash
 onto the RP2040.
+
+You can also flash it to the RP2040 directly by putting it into the
+bootloader mode (by holding the `BOOTSEL` or the top left button if it
+already has QMK) and then running:
+
+```
+qmk flash -kb leme -km default
+```
