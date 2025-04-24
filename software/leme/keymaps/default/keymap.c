@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_NAVIGATION] = LAYOUT_ortho_2x3(
         _______, _______, _______,
-        _______, _______, TG(_NAVIGATION)
+        _______, QK_BOOT, TG(_NAVIGATION)
     )
 };
 
