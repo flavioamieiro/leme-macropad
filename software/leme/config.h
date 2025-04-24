@@ -1,3 +1,5 @@
+// Copyright 2025 Flavio Amieiro <amieiro.flavio@gmail.com>
+// SPDX-License-Identifier: GPL-3.0-only
 #pragma once
 
 #define I2C_DRIVER I2CD0
