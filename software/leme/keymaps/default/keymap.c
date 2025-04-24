@@ -32,3 +32,24 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
   [_NAVIGATION] = { ENCODER_CCW_CW(MS_WHLU, MS_WHLD) }
 };
 #endif
+
+
+#ifdef OLED_ENABLE
+
+bool oled_task_user(void) {
+    oled_write_P(PSTR("Layer: "), false);
+
+    switch (get_highest_layer(layer_state)) {
+        case _BASE:
+            oled_write_ln_P(PSTR("Default"), false);
+            break;
+        case _NAVIGATION:
+            oled_write_ln_P(PSTR("Navigation"), false);
+            break;
+        default:
+            oled_write_ln_P(PSTR("Undefined"), false);
+    }
+
+    return false;
+}
+#endif

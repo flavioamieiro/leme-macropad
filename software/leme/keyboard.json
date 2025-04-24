@@ -11,7 +11,8 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        "encoder": true
+        "encoder": true,
+        "oled": true
     },
     "matrix_pins": {
         "cols": ["GP20", "GP19", "GP18"],
