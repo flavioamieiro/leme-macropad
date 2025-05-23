@@ -1751,7 +1751,7 @@
 		(uuid "fdd94c9b-03f8-4243-bec3-5b2f733b6fda")
 	)
 	(junction
-		(at 92.71 85.09)
+		(at 73.66 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07ca4ae0-5f35-4ae8-8218-63c6dd5ddd56")
@@ -1769,80 +1769,80 @@
 		(uuid "1c8704cb-5aa6-4d4d-b5df-5f33a8ee3af7")
 	)
 	(junction
-		(at 95.25 25.4)
+		(at 110.49 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20e68371-e1dc-4baa-9699-1f06ffb1ba55")
 	)
 	(junction
-		(at 106.68 95.25)
+		(at 87.63 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aded6a5-6fc1-4f6f-92c3-545531d2437f")
 	)
 	(junction
-		(at 80.01 95.25)
+		(at 60.96 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70edf62c-3d92-4386-9521-5f817cc38ac2")
 	)
 	(junction
-		(at 80.01 125.73)
+		(at 60.96 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78528ff6-a38b-4443-ae0a-a25e9bd1cfde")
 	)
 	(junction
-		(at 92.71 35.56)
+		(at 107.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eadd9c7-fc2f-40a0-9442-927315373edb")
 	)
 	(junction
-		(at 53.34 125.73)
+		(at 34.29 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "937459f7-9c4b-4bf7-b664-57a7b8bbe36f")
 	)
 	(junction
-		(at 97.79 35.56)
+		(at 113.03 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "959ecd22-ff8e-481b-9622-97b89f5f6e22")
 	)
 	(junction
-		(at 106.68 125.73)
+		(at 87.63 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad77c733-c9e6-44e2-84e0-9ad4dec7ec7e")
 	)
 	(junction
-		(at 119.38 85.09)
+		(at 100.33 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ba1b25-fee8-491e-98a4-465dc7681826")
 	)
 	(junction
-		(at 53.34 95.25)
+		(at 34.29 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4e62819-5578-402b-a5db-40122444bef4")
 	)
 	(junction
-		(at 146.05 85.09)
+		(at 127 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6f71993-a362-4ff5-ab9a-1e7c75d8b0dd")
 	)
 	(junction
-		(at 66.04 85.09)
+		(at 46.99 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f6eb2b-85cc-45d0-bf9b-9b657f70cc5b")
 	)
 	(wire
 		(pts
-			(xy 99.06 43.18) (xy 99.06 53.34)
+			(xy 114.3 43.18) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 35.56) (xy 92.71 45.72)
+			(xy 107.95 35.56) (xy 107.95 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 80.01 95.25)
+			(xy 60.96 92.71) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 133.35 125.73)
+			(xy 87.63 125.73) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 115.57) (xy 55.88 115.57)
+			(xy 34.29 115.57) (xy 36.83 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 138.43 85.09)
+			(xy 114.3 85.09) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 82.55 85.09)
+			(xy 60.96 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 25.4) (xy 95.25 25.4)
+			(xy 113.03 25.4) (xy 110.49 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 125.73) (xy 80.01 125.73)
+			(xy 34.29 125.73) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 80.01 95.25)
+			(xy 34.29 95.25) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 106.68 85.09)
+			(xy 87.63 87.63) (xy 87.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2042,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 115.57) (xy 109.22 115.57)
+			(xy 87.63 115.57) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 106.68 95.25)
+			(xy 60.96 95.25) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 53.34 125.73)
+			(xy 26.67 125.73) (xy 34.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 40.64) (xy 101.6 40.64)
+			(xy 113.03 40.64) (xy 116.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 27.94) (xy 97.79 25.4)
+			(xy 113.03 27.94) (xy 113.03 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 35.56) (xy 97.79 40.64)
+			(xy 113.03 35.56) (xy 113.03 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 92.71 115.57)
+			(xy 73.66 85.09) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 123.19) (xy 106.68 125.73)
+			(xy 87.63 123.19) (xy 87.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 123.19 45.72)
+			(xy 132.08 45.72) (xy 138.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 99.06 43.18)
+			(xy 116.84 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 69.85) (xy 66.04 85.09)
+			(xy 46.99 69.85) (xy 46.99 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 85.09) (xy 146.05 85.09)
+			(xy 123.19 85.09) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 53.34 95.25)
+			(xy 34.29 92.71) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 118.11) (xy 80.01 115.57)
+			(xy 60.96 118.11) (xy 60.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 66.04 115.57)
+			(xy 46.99 85.09) (xy 46.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 25.4) (xy 95.25 25.4)
+			(xy 107.95 25.4) (xy 110.49 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 40.64) (xy 116.84 40.64)
+			(xy 138.43 40.64) (xy 132.08 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 142.24 85.09)
+			(xy 123.19 82.55) (xy 123.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 101.6 45.72)
+			(xy 107.95 45.72) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 53.34 95.25)
+			(xy 26.67 95.25) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 97.79 35.56)
+			(xy 116.84 35.56) (xy 113.03 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 106.68 125.73)
+			(xy 60.96 125.73) (xy 87.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 33.02) (xy 92.71 35.56)
+			(xy 107.95 33.02) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 133.35 85.09)
+			(xy 114.3 87.63) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 119.38 115.57)
+			(xy 100.33 85.09) (xy 100.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 138.43 85.09)
+			(xy 119.38 82.55) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 33.02) (xy 97.79 35.56)
+			(xy 113.03 33.02) (xy 113.03 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 85.09) (xy 55.88 85.09)
+			(xy 34.29 85.09) (xy 36.83 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 27.94) (xy 92.71 25.4)
+			(xy 107.95 27.94) (xy 107.95 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2532,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 106.68 115.57)
+			(xy 87.63 118.11) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 95.25)
+			(xy 87.63 92.71) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 123.19) (xy 80.01 125.73)
+			(xy 60.96 123.19) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 133.35 95.25)
+			(xy 114.3 92.71) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 109.22 85.09)
+			(xy 87.63 85.09) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 53.34 85.09)
+			(xy 34.29 87.63) (xy 34.29 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 133.35 115.57)
+			(xy 114.3 118.11) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 146.05 115.57)
+			(xy 127 85.09) (xy 127 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 135.89 115.57)
+			(xy 114.3 115.57) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 133.35 125.73)
+			(xy 114.3 123.19) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 146.05 85.09)
+			(xy 127 69.85) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 92.71 85.09)
+			(xy 73.66 69.85) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 35.56) (xy 92.71 35.56)
+			(xy 104.14 35.56) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 53.34 125.73)
+			(xy 34.29 123.19) (xy 34.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 80.01 85.09)
+			(xy 60.96 87.63) (xy 60.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 118.11) (xy 53.34 115.57)
+			(xy 34.29 118.11) (xy 34.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 119.38 85.09)
+			(xy 100.33 69.85) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 133.35 95.25)
+			(xy 87.63 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 115.57) (xy 82.55 115.57)
+			(xy 60.96 115.57) (xy 63.5 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2964,7 @@
 	)
 	(global_label "COL 3"
 		(shape input)
-		(at 119.38 69.85 90)
+		(at 100.33 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2974,7 +2974,7 @@
 		)
 		(uuid "1cabe7c2-0ce5-4afe-ad53-ff44c7a796bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 61.0591 90)
+			(at 100.33 61.0591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2986,7 @@
 	)
 	(global_label "Encoder CLK"
 		(shape input)
-		(at 101.6 35.56 0)
+		(at 116.84 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2996,7 +2996,7 @@
 		)
 		(uuid "1cce03d0-201b-4fde-98e2-2cc0a09918fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6803 35.56 0)
+			(at 131.9203 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3008,7 @@
 	)
 	(global_label "ROW 2"
 		(shape input)
-		(at 45.72 125.73 180)
+		(at 26.67 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3018,7 +3018,7 @@
 		)
 		(uuid "277fa4b9-2ca4-4814-905a-badefa1d2a4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 125.73 0)
+			(at 17.4558 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 	)
 	(global_label "ROW 1"
 		(shape input)
-		(at 45.72 95.25 180)
+		(at 26.67 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3084,7 +3084,7 @@
 		)
 		(uuid "457d57aa-49ce-4c4b-bedf-ed19fbc71951")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 95.25 0)
+			(at 17.4558 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3096,7 @@
 	)
 	(global_label "COL 4"
 		(shape input)
-		(at 142.24 82.55 90)
+		(at 123.19 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3106,7 +3106,7 @@
 		)
 		(uuid "50522585-e3dc-4f8d-bdb5-76e7c38e20fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 73.7591 90)
+			(at 123.19 73.7591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3118,7 @@
 	)
 	(global_label "COL 4"
 		(shape input)
-		(at 146.05 69.85 90)
+		(at 127 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3128,7 +3128,7 @@
 		)
 		(uuid "74e84ea0-8a2f-4e67-a57e-98a6bde53700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 61.0591 90)
+			(at 127 61.0591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3140,7 @@
 	)
 	(global_label "Encoder S2"
 		(shape input)
-		(at 138.43 82.55 90)
+		(at 119.38 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3150,7 +3150,7 @@
 		)
 		(uuid "75bf3aec-16cc-45c3-abe8-592499fcb434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 68.6188 90)
+			(at 119.38 68.6188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3162,7 @@
 	)
 	(global_label "COL 4"
 		(shape input)
-		(at 123.19 40.64 0)
+		(at 138.43 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3172,7 +3172,7 @@
 		)
 		(uuid "8e4ecee5-fa57-4edd-b66b-4e16b978cf8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9809 40.64 0)
+			(at 147.2209 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3184,7 @@
 	)
 	(global_label "Encoder S2"
 		(shape input)
-		(at 123.19 45.72 0)
+		(at 138.43 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3194,7 +3194,7 @@
 		)
 		(uuid "9a89d05e-cc22-490a-86ba-a54bc365ec8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1212 45.72 0)
+			(at 152.3612 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3228,7 @@
 	)
 	(global_label "Encoder DT"
 		(shape input)
-		(at 88.9 35.56 180)
+		(at 104.14 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3238,7 +3238,7 @@
 		)
 		(uuid "bc6f9fcf-d27b-43f7-b902-9283129d2f12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.1502 35.56 0)
+			(at 90.3902 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3294,7 @@
 	)
 	(global_label "COL 1"
 		(shape input)
-		(at 66.04 69.85 90)
+		(at 46.99 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3304,7 +3304,7 @@
 		)
 		(uuid "f4542d5f-953f-4908-85a3-4c988695b66f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 61.0591 90)
+			(at 46.99 61.0591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 	)
 	(global_label "COL 2"
 		(shape input)
-		(at 92.71 69.85 90)
+		(at 73.66 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3326,7 +3326,7 @@
 		)
 		(uuid "f797d7ea-6c34-4620-8974-a4cdbe334b95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 61.0591 90)
+			(at 73.66 61.0591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "023b50b8-05ba-40c9-af93-387471d9401b")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR058"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR047")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3413,7 +3413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131eac87-7da0-40b7-8abf-3c233dafaf49")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3555,7 +3555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a2f7e95-95bf-4d60-81e6-22ba67e9bebe")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR039"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -3605,7 +3605,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR015")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "281d92c1-9b08-4ad0-82f5-9a2d837e7871")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 190.5 90.17 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3755,7 +3755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f0b4b3e-2933-4f7f-ba81-ba0454968846")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3963,7 +3963,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 90.17 90)
+		(at 87.63 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3971,8 +3971,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36c11ce8-e626-48e3-a7b7-006bb6400329")
-		(property "Reference" "D3"
-			(at 109.22 88.8999 90)
+		(property "Reference" "D5"
+			(at 90.17 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3981,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 91.4399 90)
+			(at 90.17 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 90.17 90)
+			(at 87.63 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 90.17 90)
+			(at 87.63 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4008,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 90.17 0)
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4017,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 90.17 0)
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 90.17 0)
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4315ea9f-b936-4aa9-ac11-0c2de19825a0")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4192,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 80.01 90.17 90)
+		(at 60.96 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4200,8 +4200,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436d266f-9783-4435-9302-2da2e6dd2d9f")
-		(property "Reference" "D2"
-			(at 82.55 88.8999 90)
+		(property "Reference" "D3"
+			(at 63.5 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 82.55 91.4399 90)
+			(at 63.5 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 90.17 90)
+			(at 60.96 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 90.17 90)
+			(at 60.96 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 80.01 90.17 0)
+			(at 60.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4246,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 90.17 0)
+			(at 60.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4255,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 90.17 0)
+			(at 60.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "532c4913-f62e-43d6-9af3-ee95659ea83f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR057"
 			(at 266.7 58.42 0)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR046")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4346,7 +4346,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 53.34 0)
+		(at 114.3 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4354,8 +4354,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf7d308-33bb-4148-b455-38e5f687fa91")
-		(property "Reference" "#PWR012"
-			(at 99.06 59.69 0)
+		(property "Reference" "#PWR041"
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 54.6099 0)
+			(at 116.84 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 53.34 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 53.34 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 53.34 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4405,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR012")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6273e265-32e7-4ea9-974d-8300ee36d180")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6981aa19-3037-4edf-9dfa-21f2486458e3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4547,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 53.34 120.65 90)
+		(at 34.29 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4555,8 +4555,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b811971-5c5d-48bc-b106-d73682a48741")
-		(property "Reference" "D5"
-			(at 55.88 119.3799 90)
+		(property "Reference" "D2"
+			(at 36.83 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4565,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 55.88 121.9199 90)
+			(at 36.83 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 120.65 90)
+			(at 34.29 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 120.65 90)
+			(at 34.29 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4592,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 53.34 120.65 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 53.34 120.65 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4610,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 53.34 120.65 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4627,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb11f8d-18fa-4b11-8613-6ffe8121da90")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR037"
 			(at 46.99 162.56 0)
 			(effects
 				(font
@@ -4693,7 +4693,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR09")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71dcd8bc-53f7-4723-bdad-db70cb8bf6da")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 241.3 110.49 0)
 			(effects
 				(font
@@ -4835,7 +4835,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4843,7 +4843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 97.79 30.48 180)
+		(at 113.03 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4851,8 +4851,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f6cc5c-6dd7-42d7-972a-47e9ebdde2f0")
-		(property "Reference" "R2"
-			(at 100.33 29.2099 0)
+		(property "Reference" "R10"
+			(at 115.57 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4861,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 100.33 31.7499 0)
+			(at 115.57 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 30.48 0)
+			(at 113.03 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 30.48 0)
+			(at 113.03 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4888,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 97.79 30.48 0)
+			(at 113.03 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4905,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4921,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7430ef70-8834-4910-8d24-362cec808ee5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7808d36e-406d-4135-b3ad-70e7dd60efac")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR054"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -5114,7 +5114,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR045")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5197,7 +5197,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 95.25 25.4 0)
+		(at 110.49 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,8 +5205,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "898ce1f1-d6ea-4ae8-9454-88ba2e35bcab")
-		(property "Reference" "#PWR03"
-			(at 95.25 29.21 0)
+		(property "Reference" "#PWR040"
+			(at 110.49 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5215,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 95.25 20.32 0)
+			(at 110.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 25.4 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 25.4 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 25.4 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5255,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR03")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5271,7 +5271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f2e2ed8-fe66-4f5d-a4fa-1688493ef111")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 146.05 166.37 90)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5406,15 +5406,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 109.22 43.18 0)
+		(at 124.46 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "90330b3d-b194-4944-86f7-3860f7ea470e")
-		(property "Reference" "SW1"
-			(at 103.886 50.038 0)
+		(property "Reference" "SW7"
+			(at 119.126 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5423,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 103.886 52.324 0)
+			(at 119.126 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 39.116 0)
+			(at 120.65 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 36.576 0)
+			(at 124.46 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 109.22 43.18 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5476,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW1")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -5484,7 +5484,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 90.17 90)
+		(at 114.3 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5492,8 +5492,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90893f11-9b26-446a-b809-03a1c9fef3f7")
-		(property "Reference" "D4"
-			(at 135.89 88.8999 90)
+		(property "Reference" "D7"
+			(at 116.84 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5502,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 135.89 91.4399 90)
+			(at 116.84 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 90.17 90)
+			(at 114.3 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 90.17 90)
+			(at 114.3 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 90.17 0)
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5538,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 90.17 0)
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5547,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 90.17 0)
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5564,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 60.96 115.57 0)
+		(at 41.91 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5580,8 +5580,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9684746d-f980-4ddd-8926-516ef2da1945")
-		(property "Reference" "SW5"
-			(at 60.96 107.95 0)
+		(property "Reference" "SW2"
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5589,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 60.96 110.49 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 110.49 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 110.49 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 60.96 115.57 0)
+			(at 41.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5640,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 120.65 90)
+		(at 114.3 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5649,7 +5649,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a4edb0a-4012-42d9-aa53-c2ef556045a7")
 		(property "Reference" "D8"
-			(at 135.89 119.3799 90)
+			(at 116.84 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5658,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 135.89 121.9199 90)
+			(at 116.84 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 120.65 90)
+			(at 114.3 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 120.65 90)
+			(at 114.3 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5694,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5703,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 120.65 0)
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5796,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 87.63 115.57 0)
+		(at 68.58 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5804,8 +5804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dbb854f-70a1-4988-9c46-d685187a4742")
-		(property "Reference" "SW6"
-			(at 87.63 107.95 0)
+		(property "Reference" "SW4"
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5813,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 87.63 110.49 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 110.49 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 110.49 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5839,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 87.63 115.57 0)
+			(at 68.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +5856,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW6")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5864,7 +5864,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 85.09 0)
+		(at 95.25 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5872,8 +5872,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13cbc83-3cac-40ae-be80-d2ed0cdee499")
-		(property "Reference" "SW4"
-			(at 114.3 77.47 0)
+		(property "Reference" "SW5"
+			(at 95.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5881,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 80.01 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 80.01 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 80.01 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5907,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 85.09 0)
+			(at 95.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +5924,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -6008,7 +6008,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 60.96 85.09 0)
+		(at 41.91 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6016,8 +6016,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a911bee4-47c4-4434-9b69-cc2bd756c660")
-		(property "Reference" "SW2"
-			(at 60.96 77.47 0)
+		(property "Reference" "SW1"
+			(at 41.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6025,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 60.96 80.01 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 80.01 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 80.01 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6051,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 60.96 85.09 0)
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6068,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6076,7 +6076,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 53.34 90.17 90)
+		(at 34.29 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6085,7 +6085,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2235276-2276-4e5e-81fd-c220c18eb2aa")
 		(property "Reference" "D1"
-			(at 55.88 88.8999 90)
+			(at 36.83 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6094,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 55.88 91.4399 90)
+			(at 36.83 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 90.17 90)
+			(at 34.29 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 90.17 90)
+			(at 34.29 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6121,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 53.34 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 53.34 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 53.34 90.17 0)
+			(at 34.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b367bb73-e516-426b-aca5-263ad95ce8b6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR053"
 			(at 241.3 58.42 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR044")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6230,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 120.65 90)
+		(at 87.63 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6238,8 +6238,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5277a43-e2c7-483c-889e-53b518ac8342")
-		(property "Reference" "D7"
-			(at 109.22 119.3799 90)
+		(property "Reference" "D6"
+			(at 90.17 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6248,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 121.9199 90)
+			(at 90.17 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 120.65 90)
+			(at 87.63 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 120.65 90)
+			(at 87.63 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6275,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 120.65 0)
+			(at 87.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6284,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 120.65 0)
+			(at 87.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6293,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 120.65 0)
+			(at 87.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b658118b-8e69-4360-b1f2-dedc295947e4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 190.5 110.49 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6393,7 +6393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c422bdfb-3bf9-45e3-add8-d982935a4aa8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR044"
 			(at 167.64 182.88 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR019")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6451,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 92.71 30.48 0)
+		(at 107.95 30.48 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6459,8 +6459,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c560697e-b1d8-4963-bc84-55c7f4af0e46")
-		(property "Reference" "R1"
-			(at 90.17 29.2099 0)
+		(property "Reference" "R9"
+			(at 105.41 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6469,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 90.17 31.7499 0)
+			(at 105.41 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 30.48 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 30.48 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6496,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 92.71 30.48 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6513,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94d0002-8601-4cd0-b818-2052d26cb4f7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR038"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -6579,7 +6579,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR010")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6587,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 115.57 0)
+		(at 95.25 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6595,8 +6595,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea123a3-dda8-44b9-a29a-3b8c541fc4fc")
-		(property "Reference" "SW7"
-			(at 114.3 107.95 0)
+		(property "Reference" "SW6"
+			(at 95.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +6604,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 110.49 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 110.49 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 110.49 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6630,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 115.57 0)
+			(at 95.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6647,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -6655,7 +6655,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 80.01 120.65 90)
+		(at 60.96 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6663,8 +6663,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09b4c52-415a-4dbd-80c6-6c651203f55a")
-		(property "Reference" "D6"
-			(at 82.55 119.3799 90)
+		(property "Reference" "D4"
+			(at 63.5 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6673,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 82.55 121.9199 90)
+			(at 63.5 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 120.65 90)
+			(at 60.96 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 120.65 90)
+			(at 60.96 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 80.01 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6709,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6718,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6735,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6743,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 87.63 85.09 0)
+		(at 68.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6752,7 +6752,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0dbf9ee-5c78-43da-9e96-9c4cdbd45930")
 		(property "Reference" "SW3"
-			(at 87.63 77.47 0)
+			(at 68.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6760,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 87.63 80.01 0)
+			(at 68.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 80.01 0)
+			(at 68.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 80.01 0)
+			(at 68.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6786,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 87.63 85.09 0)
+			(at 68.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fc2e1e-b996-4d42-b3cb-e5ebad107f9b")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 102.87 166.37 90)
 			(effects
 				(font
@@ -6871,7 +6871,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6887,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae5e238-3289-4321-ac3e-b08df3486848")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 241.3 90.17 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6953,7 +6953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dddb3dfc-57fa-4375-90bf-d763a235fd54")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7003,7 +7003,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7011,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 140.97 115.57 0)
+		(at 121.92 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7020,7 +7020,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a4622d-d251-4634-b22d-727aa7c8c24a")
 		(property "Reference" "SW8"
-			(at 140.97 107.95 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7028,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 140.97 110.49 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 110.49 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 110.49 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 140.97 115.57 0)
+			(at 121.92 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ce7853-c1e1-4428-9f3c-86e703b3e387")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 215.9 90.17 0)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7153,7 +7153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec20c426-472f-45b7-8753-4d3dbc0799c9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR042"
 			(at 124.46 182.88 0)
 			(effects
 				(font
@@ -7203,7 +7203,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR018")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6267943-a38a-4b98-9f77-abdc5a316c68")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR043"
 			(at 138.43 170.18 0)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "#PWR016")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
