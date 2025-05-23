@@ -605,6 +605,10 @@
     [
       "97412fdd-d1b0-4c2a-b51e-7c921020fa0a",
       "microcontroller"
+    ],
+    [
+      "b6fad1bd-9b8b-42cb-b41f-ac701051e19c",
+      "User interface"
     ]
   ],
   "text_variables": {}
