@@ -9,6 +9,113 @@
 		(rev "v0.1")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -696,177 +803,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2421,7 +2357,7 @@
 		)
 		(uuid "a8981690-7a88-478b-a6ce-b62ed02e814c")
 	)
-	(text "Programming / debugging"
+	(text "Testpoints / debugging"
 		(exclude_from_sim no)
 		(at 35.814 156.21 0)
 		(effects
@@ -2509,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 179.07) (xy 87.63 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064d25b7-141b-4e9b-8d43-d224ce286eb0")
-	)
-	(wire
-		(pts
 			(xy 63.5 50.8) (xy 63.5 55.88)
 		)
 		(stroke
@@ -2529,6 +2455,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 163.83) (xy 148.59 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a033a77-d0a9-4c19-a88f-808bb251bd99")
+	)
+	(wire
+		(pts
 			(xy 116.84 40.64) (xy 116.84 43.18)
 		)
 		(stroke
@@ -2536,6 +2472,16 @@
 			(type default)
 		)
 		(uuid "10d8bb49-2e6b-412e-ade1-f7526f22d2c0")
+	)
+	(wire
+		(pts
+			(xy 64.77 184.15) (xy 60.96 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a8866b-1178-455d-adb1-b687936043cf")
 	)
 	(wire
 		(pts
@@ -2569,6 +2515,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 185.42) (xy 143.51 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a9af68-95c9-47a9-820d-8bed97172316")
+	)
+	(wire
+		(pts
+			(xy 134.62 185.42) (xy 134.62 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4be48b-9b52-41f3-98ff-c167ec886d9e")
+	)
+	(wire
+		(pts
 			(xy 50.8 48.26) (xy 50.8 50.8)
 		)
 		(stroke
@@ -2579,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 165.1) (xy 96.52 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5d4704-b5c5-46b6-842f-d24e05dd9cd2")
+	)
+	(wire
+		(pts
 			(xy 48.26 48.26) (xy 50.8 48.26)
 		)
 		(stroke
@@ -2586,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "32c4fda8-2c6a-4edc-a6b2-3365ab0036fa")
+	)
+	(wire
+		(pts
+			(xy 104.14 176.53) (xy 96.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34431b94-72e7-4b3e-9f01-94bb80a12c3c")
 	)
 	(wire
 		(pts
@@ -2659,6 +2645,46 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 180.34) (xy 25.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a47dcb-8906-41ad-9c95-78f0477efe18")
+	)
+	(wire
+		(pts
+			(xy 104.14 172.72) (xy 96.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d1d719-0da7-40ef-9deb-14633645c778")
+	)
+	(wire
+		(pts
+			(xy 29.21 184.15) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607a31df-7010-43cc-b610-2b5a20136623")
+	)
+	(wire
+		(pts
+			(xy 104.14 168.91) (xy 96.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650872ef-9a72-4ae3-9cc5-6dbe7541b220")
+	)
+	(wire
+		(pts
 			(xy 33.02 77.47) (xy 29.21 77.47)
 		)
 		(stroke
@@ -2709,13 +2735,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 179.07) (xy 82.55 171.45)
+			(xy 25.4 168.91) (xy 29.21 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79bfd265-b2c6-4082-a5b1-199e820ab69e")
+		(uuid "7abab6e4-9f7d-486d-a70a-948a47fbd00c")
 	)
 	(wire
 		(pts
@@ -2726,6 +2752,16 @@
 			(type default)
 		)
 		(uuid "7bf4811f-1309-4a95-b0c9-a46861b309a2")
+	)
+	(wire
+		(pts
+			(xy 29.21 187.96) (xy 25.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1344a2-d49e-48d3-88bd-06ab6718f9f6")
 	)
 	(wire
 		(pts
@@ -2749,6 +2785,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 166.37) (xy 64.77 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825e9ee4-2b85-4ca7-9991-b8c8cc872536")
+	)
+	(wire
+		(pts
+			(xy 25.4 172.72) (xy 29.21 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8929d602-efc7-4131-af2c-d6265c0d67d8")
+	)
+	(wire
+		(pts
 			(xy 48.26 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -2756,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "8b785554-5409-4652-ae9f-ffbac237b4e1")
+	)
+	(wire
+		(pts
+			(xy 64.77 187.96) (xy 60.96 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3b7ea8-7cdd-430b-8f0f-62c28542250e")
 	)
 	(wire
 		(pts
@@ -2809,6 +2875,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 175.26) (xy 64.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c42f389-ef81-486e-b764-1b8dc34ba26a")
+	)
+	(wire
+		(pts
 			(xy 50.8 53.34) (xy 68.58 53.34)
 		)
 		(stroke
@@ -2819,6 +2895,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 185.42) (xy 152.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1e0849-1764-47d4-9a64-b1cc01b3fdaf")
+	)
+	(wire
+		(pts
+			(xy 104.14 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b307dd79-0561-4766-9abb-d045df23fdc4")
+	)
+	(wire
+		(pts
 			(xy 48.26 35.56) (xy 53.34 35.56)
 		)
 		(stroke
@@ -2826,6 +2922,16 @@
 			(type default)
 		)
 		(uuid "bbe68d90-131d-4dae-a21a-833faa92f8dc")
+	)
+	(wire
+		(pts
+			(xy 138.43 163.83) (xy 138.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde6daab-02df-47e1-b22f-cce07d077c72")
 	)
 	(wire
 		(pts
@@ -2856,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "d39808a8-35cf-41ce-9d87-89fc2a26b1ce")
+	)
+	(wire
+		(pts
+			(xy 104.14 184.15) (xy 96.52 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56d7b10-1247-4a7f-a49a-a837b2b3c443")
 	)
 	(wire
 		(pts
@@ -2919,6 +3035,36 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 180.34) (xy 96.52 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b7839c-64b0-467d-8a62-2b30964ad51e")
+	)
+	(wire
+		(pts
+			(xy 104.14 187.96) (xy 96.52 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32175a0-72f4-4308-9e5a-67c0426bce51")
+	)
+	(wire
+		(pts
+			(xy 60.96 170.18) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5373392-26cd-4623-ac2b-62c7109b6458")
+	)
+	(wire
+		(pts
 			(xy 57.15 43.18) (xy 67.31 43.18)
 		)
 		(stroke
@@ -2929,54 +3075,362 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 171.45) (xy 85.09 172.72)
+			(xy 60.96 179.07) (xy 64.77 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff635c1b-fc38-4652-9239-dff64ddd1314")
+		(uuid "f5c59558-0ad1-49db-997b-6638f3dd5cb8")
 	)
-	(global_label "SWDIO"
+	(global_label "COL 2"
 		(shape input)
-		(at 87.63 179.07 270)
+		(at 104.14 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4abcf386-0311-40b2-b7b7-3ff5e5f15b47")
+		(uuid "024414de-6641-485a-982f-9436e9e73a15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 187.9214 90)
+			(at 112.9309 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Encoder DT"
+		(shape input)
+		(at 104.14 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11df3b58-f2e1-46c5-a7b5-f34ce2e062ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8898 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW 2"
+		(shape input)
+		(at 104.14 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18e9830a-a086-4777-9efc-71987f2ba4d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3542 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 64.77 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b464387-02a6-47e6-9c9b-3f2eff3f0f1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3752 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{USB BOOT}"
+		(shape input)
+		(at 64.77 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "449be0a7-51c6-4806-99bb-c9c264e2d31e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.4314 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL 4"
+		(shape input)
+		(at 104.14 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47cc6567-76cd-4af8-afb4-ea332b54b086")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9309 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 29.21 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4abcf386-0311-40b2-b7b7-3ff5e5f15b47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.0614 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DATA_OUT"
+		(shape input)
+		(at 29.21 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52ef0eb8-e977-497d-832e-dc67e023b31c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6209 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DATA_IN"
+		(shape input)
+		(at 29.21 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "586e3b37-0f04-44c8-980f-cfbb92ae5d98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.9276 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape input)
+		(at 64.77 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7503eadb-fcd4-4190-a587-950cc33cd2fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5003 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C0_SDA"
+		(shape input)
+		(at 64.77 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "763bc2c0-6e47-41bc-b37e-ff74b95fc263")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.5847 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 82.55 179.07 270)
+		(at 29.21 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7bea9de1-7c20-431d-9616-706feafd6d98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 188.2842 90)
+			(at 38.4242 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Encoder CLK"
+		(shape input)
+		(at 104.14 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8103c6f9-9320-4a63-bbe4-ec5758255a08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2203 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL 3"
+		(shape input)
+		(at 104.14 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "816dfda7-9c1d-4a11-bd85-c3a831961980")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9309 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL 1"
+		(shape input)
+		(at 104.14 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8652cf17-70a8-4e78-a0a9-600213761266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9309 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW 1"
+		(shape input)
+		(at 104.14 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ecc5ce2-9973-4305-83a7-6b923e6cdcb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3542 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3003,6 +3457,28 @@
 			)
 		)
 	)
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 64.77 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "921f8204-c907-4cf1-b6ec-bcea250d4cb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.5242 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 90.17 50.8 0)
@@ -3016,6 +3492,28 @@
 		(uuid "ad0ca1e7-ec54-4bd3-9822-d96cd350ce45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.7752 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 64.77 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afb05212-4d87-49ea-879e-35c52414e5cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,6 +3590,268 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f6a6d02-9eeb-45e7-8752-87d65c515704")
+		(property "Reference" "TP13"
+			(at 89.408 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24035c9b-5256-4585-95dd-ef25bd68d7f3")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1030de54-85d5-443f-a203-9ac46ec8620d")
+		(property "Reference" "TP18"
+			(at 89.408 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a65534-ff9d-4b2c-880b-038524f9dcff")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "131f91a6-5b9b-480b-9491-efa32fafcb20")
+		(property "Reference" "TP11"
+			(at 53.848 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32b36e9b-64e2-4519-9954-aba9ed5d47ab")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15daea16-6af0-4465-bed2-2580d2f5ea11")
+		(property "Reference" "TP24"
+			(at 150.876 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 170.9421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7b87b2-7f12-4fb6-90f4-357394df35f7")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 83.82 66.04 0)
 		(unit 1)
@@ -3159,7 +3919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 172.72 0)
+		(at 29.21 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3167,7 +3927,7 @@
 		(dnp no)
 		(uuid "26f4b999-02c5-4f05-aa7c-6d96c84e5567")
 		(property "Reference" "#PWR017"
-			(at 85.09 179.07 0)
+			(at 35.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 176.53 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 172.72 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 172.72 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 172.72 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,6 +3977,136 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2917ae77-201e-42ad-884b-85f4638b650f")
+		(property "Reference" "TP3"
+			(at 19.558 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.098 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c94c05-15e0-4dc5-98c0-1973d9765519")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ab32a55-a8b0-466c-a1fb-4e75c755dce1")
+		(property "Reference" "TP6"
+			(at 55.118 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ed98a72-eb31-4c01-9747-aa47602e0b59")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3330,6 +4220,463 @@
 			(project ""
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e200dab-7783-4bc4-becd-5272e10489d5")
+		(property "Reference" "TP17"
+			(at 89.408 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985ca229-0b38-4f85-b8fe-d79a72346449")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4099f126-a7ef-4db8-af69-6cc20f5e5e90")
+		(property "Reference" "TP7"
+			(at 55.118 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bea987c9-8016-4dac-8ae1-6635ac556272")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45759260-51fa-4026-9168-39eaa5c61426")
+		(property "Reference" "TP8"
+			(at 55.118 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb234fdf-d8cb-4713-b42d-0039b727f9f8")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45ceb716-c639-4307-86e5-b2ff0e154c54")
+		(property "Reference" "TP16"
+			(at 89.408 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d054ffb-00f9-4d33-926b-0d6cd017c168")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ae3431e-809d-4ad0-8b56-cd7ef26707fe")
+		(property "Reference" "#PWR060"
+			(at 134.62 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8fdaa8d-ec76-4d6a-b079-1a712bd90bc5")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51363352-f1bb-41dc-8f28-ff022bc4e51e")
+		(property "Reference" "TP4"
+			(at 19.558 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.098 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db6a82ca-83eb-41ab-933f-0145851e5367")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "546f224a-a147-467c-95e0-306c799dfeec")
+		(property "Reference" "TP22"
+			(at 150.114 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98ec828-dfd4-40c8-b722-a8f0d66c507f")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -3540,6 +4887,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6016b96c-cc1a-4462-9213-3cf1e2d7abda")
+		(property "Reference" "TP9"
+			(at 55.118 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0be2ea2-a9fd-4798-b0be-26b26b890bf4")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ae4caf3-7edc-423c-8428-ebd86e2dfd9c")
+		(property "Reference" "#PWR059"
+			(at 143.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec211c71-92ac-4c39-bb5f-b9b79c2aaa0d")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 110.49 27.94 0)
 		(unit 1)
@@ -3600,6 +5077,136 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ddf0e6e-3bb8-4f62-a14d-1187d9054a91")
+		(property "Reference" "TP14"
+			(at 89.408 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084ffede-1d8b-44ff-b024-f71ccb285874")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84ab8b84-1e67-42d3-aac8-d806e2f3cf36")
+		(property "Reference" "TP10"
+			(at 53.848 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.658 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80268e29-5c03-4a84-ab0e-877031cd36f5")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3670,6 +5277,136 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "854d2d76-a9fc-4f80-b00b-390df666bece")
+		(property "Reference" "TP12"
+			(at 89.408 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecfee638-2b2f-40ff-a287-69fa00439053")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f15630-f391-43f9-9c99-ff6399f31349")
+		(property "Reference" "TP5"
+			(at 19.558 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.098 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b5ac171-284c-402f-8553-ad357161bcbc")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3755,35 +5492,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 85.09 166.37 90)
+		(lib_id "Connector:TestPoint")
+		(at 134.62 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89b52f60-fd97-4c2a-b83b-b926e4e7ab25")
-		(property "Reference" "J3"
-			(at 90.17 165.0999 90)
+		(uuid "93716a35-4be5-4d20-ac98-575f19f3728b")
+		(property "Reference" "TP20"
+			(at 132.334 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SWD debug"
-			(at 90.17 167.6399 90)
+		(property "Value" "TestPoint"
+			(at 137.16 183.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 166.37 0)
+			(at 139.7 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 166.37 0)
+			(at 139.7 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,28 +5537,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 85.09 166.37 0)
+		(property "Description" "test point"
+			(at 134.62 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "1096d0fb-bffc-4dfa-b667-8d0162488e28")
-		)
-		(pin "2"
-			(uuid "76be5d15-db30-4482-96bf-08c6b6f0a833")
 		)
 		(pin "1"
-			(uuid "4a5296e8-0bc2-4374-babc-0d0f630611d7")
+			(uuid "228d4eca-e96f-407b-a9ad-fe70485bd467")
 		)
 		(instances
 			(project ""
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
-					(reference "J3")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -3894,6 +5625,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "965d5ba2-9ab1-43a9-b58d-0cb7bb89425c")
+		(property "Reference" "TP23"
+			(at 140.716 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.89 170.9421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8eb2b6-2d34-4bee-8ae3-dd7dd30e474c")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 72.39 0)
 		(unit 1)
@@ -3954,6 +5752,136 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a88b9b64-c257-4cd7-bae0-4f31238a896e")
+		(property "Reference" "TP1"
+			(at 19.558 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.098 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869bc624-a303-498c-bdcf-1fed0e058deb")
+		)
+		(instances
+			(project ""
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb4ea0f5-ca93-4fc6-b3c7-91dbcb34d314")
+		(property "Reference" "TP2"
+			(at 19.558 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.098 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58159bc5-24c9-4443-8816-9b5d635d9a93")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4023,6 +5951,137 @@
 			(project ""
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be00f1c2-f7d3-48de-9fb6-4983bb6f4983")
+		(property "Reference" "TP15"
+			(at 89.408 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c51308-db0b-4f2a-b7aa-a4e959b03a7b")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 148.59 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be2f5b0e-4114-4fd1-84a3-d83d46efdf11")
+		(property "Reference" "#PWR058"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 148.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d518bb-1f2b-4310-94be-d607b4183fd6")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4220,6 +6279,72 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc96f4e-9a22-43ed-baf4-06dbab4076a1")
+		(property "Reference" "#PWR056"
+			(at 138.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fba2506-66e0-4223-a5a2-7b9de4710e1c")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4486,6 +6611,203 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f75febde-2c11-48f0-921d-aef9897cccdd")
+		(property "Reference" "TP21"
+			(at 141.224 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "880ee0af-3ec4-4893-ba56-ba988c723eaa")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8866c1d-62c5-4e1c-be77-9e09ef0f9c49")
+		(property "Reference" "TP19"
+			(at 89.408 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.218 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba00e0e-df27-4d42-9760-421463c06223")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd5e2e6b-241a-4eee-bf7f-265e01ce850d")
+		(property "Reference" "#PWR057"
+			(at 152.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c9c65a-dd97-4b7e-93a3-231023d73136")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
