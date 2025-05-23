@@ -2518,10 +2518,6 @@
 		(uuid "5e35ba10-4db3-4b0b-8832-e7e97df16dc1")
 	)
 	(no_connect
-		(at 256.54 109.22)
-		(uuid "645c62bc-95c4-4b5e-b4ec-c19cf369c5ad")
-	)
-	(no_connect
 		(at 256.54 81.28)
 		(uuid "64d866ee-e82e-428a-a1b9-ead6d362182f")
 	)
@@ -2576,6 +2572,16 @@
 	(no_connect
 		(at 256.54 76.2)
 		(uuid "f3a88395-d475-4483-8477-c1298681a8f4")
+	)
+	(wire
+		(pts
+			(xy 256.54 109.22) (xy 264.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e6b488-14ae-4f27-b189-29769bef4aed")
 	)
 	(wire
 		(pts
@@ -4504,6 +4510,28 @@
 		(uuid "fa40ee49-fa64-406b-9088-75410ef894d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.9142 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DATA_IN"
+		(shape input)
+		(at 264.16 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc60eddd-7ac0-4b1d-8f70-06192c9a1417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.8776 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
