@@ -3703,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "leme_macropad:CK_PTS636_SK43_SMTR_LFS"
 			(at 160.02 167.64 0)
 			(effects
 				(font
@@ -3989,7 +3989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 87.63 90.17 90)
 			(effects
 				(font
@@ -4218,7 +4218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 90.17 90)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.29 120.65 90)
 			(effects
 				(font
@@ -4869,7 +4869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 30.48 0)
 			(effects
 				(font
@@ -5287,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 146.05 172.72 0)
 			(effects
 				(font
@@ -5431,7 +5431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 120.65 39.116 0)
 			(effects
 				(font
@@ -5510,7 +5510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 90.17 90)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -5666,7 +5666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 120.65 90)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "leme_macropad:CK_PTS636_SK43_SMTR_LFS"
 			(at 116.84 167.64 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 68.58 110.49 0)
 			(effects
 				(font
@@ -5888,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -5958,7 +5958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 53.34 165.1 0)
 			(effects
 				(font
@@ -6032,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 41.91 80.01 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.29 90.17 90)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 87.63 120.65 90)
 			(effects
 				(font
@@ -6477,7 +6477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.95 30.48 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 120.65 90)
 			(effects
 				(font
@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 68.58 80.01 0)
 			(effects
 				(font
@@ -6835,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -7035,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "leme_macropad:CK_PTS636_SK43_SMTR_LFS"
 			(at 121.92 110.49 0)
 			(effects
 				(font
