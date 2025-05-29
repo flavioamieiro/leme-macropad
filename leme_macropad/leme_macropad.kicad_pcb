@@ -1233,7 +1233,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "19516aa7-dd1c-4e8f-8992-ef94bb13d2a4")
-		(at 129.26 -80.131)
+		(at 97.95 113.05)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW2"
@@ -8531,7 +8531,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "86b94f19-8bff-450e-bd07-074fecf271ca")
-		(at 129.26 -11.123)
+		(at 136.05 113.05)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW6"
@@ -12031,7 +12031,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "9c81a6be-705e-4d5f-bffb-8503ec98cd2b")
-		(at 129.26 -28.375)
+		(at 136.05 94)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW5"
@@ -13535,7 +13535,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a2ec7b85-3c49-463f-b51c-b8e7c3dc9467")
-		(at 129.26 -45.627)
+		(at 117 113.05)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW4"
@@ -23408,7 +23408,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "fa47fac1-db43-4087-9382-5780f3f050b0")
-		(at 129.26 -62.879)
+		(at 117 94)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW3"
@@ -24610,7 +24610,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "fcf159a1-0718-4faa-be5f-525e3059b097")
-		(at 129.26 -97.383)
+		(at 97.95 94)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "SW1"
@@ -25960,6 +25960,13 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(group ""
+		(uuid "97158d50-e576-4b95-8702-3ba0f3d6e841")
+		(members "19516aa7-dd1c-4e8f-8992-ef94bb13d2a4" "86b94f19-8bff-450e-bd07-074fecf271ca"
+			"9c81a6be-705e-4d5f-bffb-8503ec98cd2b" "a2ec7b85-3c49-463f-b51c-b8e7c3dc9467"
+			"fa47fac1-db43-4087-9382-5780f3f050b0" "fcf159a1-0718-4faa-be5f-525e3059b097"
 		)
 	)
 	(group ""
