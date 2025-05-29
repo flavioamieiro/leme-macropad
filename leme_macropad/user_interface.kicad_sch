@@ -517,7 +517,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch"
+		(symbol "Device:RotaryEncoder_Switch_MP"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -526,15 +526,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.604 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -551,7 +551,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 6.604 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -559,8 +559,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -586,7 +586,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_0_1"
+			(symbol "RotaryEncoder_Switch_MP_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -811,7 +811,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_1_1"
+			(symbol "RotaryEncoder_Switch_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -859,6 +859,24 @@
 						)
 					)
 					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2509,6 +2527,16 @@
 			(type default)
 		)
 		(uuid "9de80eb6-cbe0-4cca-8cb2-7e062edefed5")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1aebb9-7e6d-4a54-afa8-fbeaad0db67f")
 	)
 	(wire
 		(pts
@@ -5262,6 +5290,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8997d7b4-9399-460f-8069-6fffe4ad3e49")
+		(property "Reference" "#PWR063"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb470e5-9d3f-4975-b446-7b3878aba210")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 146.05 172.72 90)
 		(unit 1)
@@ -5405,7 +5500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
+		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 124.46 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5414,7 +5509,7 @@
 		(dnp no)
 		(uuid "90330b3d-b194-4944-86f7-3860f7ea470e")
 		(property "Reference" "SW7"
-			(at 119.126 50.038 0)
+			(at 117.602 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,6 +5524,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
@@ -5441,7 +5537,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 36.576 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,8 +5545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 124.46 43.18 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,6 +5568,9 @@
 		)
 		(pin "B"
 			(uuid "6250c5ed-4bdd-4798-8f22-09c0fb9622c8")
+		)
+		(pin "MP"
+			(uuid "7be348b8-5292-4d16-ae80-05e95f9b4f9a")
 		)
 		(instances
 			(project "leme_macropad"
