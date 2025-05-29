@@ -141,5 +141,47 @@
 		)
 	)
 	(net 0 "")
+	(gr_circle
+		(center 190 110)
+		(end 215 110)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "02611495-ff02-4c17-92a6-209641c07432")
+	)
+	(gr_circle
+		(center 190 110)
+		(end 193 110)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "3cc6ada3-283e-4d4d-929d-b6ef11c04356")
+	)
+	(gr_text "Knob dimensions"
+		(at 183.446429 138 0)
+		(layer "User.4")
+		(uuid "e7e8c63c-6cd1-4039-8cc1-4d8394ee4c85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(group ""
+		(uuid "36419aa7-a093-4ddd-88a8-ef84f2f96ba9")
+		(members "9666bfd7-6071-4d84-8b9b-a12033f1cecd" "e7e8c63c-6cd1-4039-8cc1-4d8394ee4c85")
+	)
+	(group ""
+		(uuid "9666bfd7-6071-4d84-8b9b-a12033f1cecd")
+		(members "02611495-ff02-4c17-92a6-209641c07432" "3cc6ada3-283e-4d4d-929d-b6ef11c04356")
+	)
 	(embedded_fonts no)
 )
