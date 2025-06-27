@@ -17361,14 +17361,14 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "c35a232f-86f0-45d6-b0d2-3b0a40e0a61c")
-		(at 171 116 90)
+		(at 140.75 74.19 90)
 		(descr "SMT SPST pushbutton")
 		(tags "button pushbutton SPST")
 		(property "Reference" "SW8"
 			(at 0 -3 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a2b90864-b3ff-4547-b0c0-6b2c97f7dfbf")
+			(uuid "6c674529-b26a-4062-b78b-3a1c48f74144")
 			(effects
 				(font
 					(size 1 1)
@@ -17380,7 +17380,7 @@
 			(at 0 2.75 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "050ee514-3597-4f61-aeec-5ccda1c874dd")
+			(uuid "8686afa4-d283-48ad-b7a7-32a27bbf5dc6")
 			(effects
 				(font
 					(size 1 1)
@@ -17393,7 +17393,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "140ab895-22aa-43f3-a1c3-51a10547ea75")
+			(uuid "ae0a31e5-d414-4d30-8a63-f7b04ea68b30")
 			(effects
 				(font
 					(size 1 1)
@@ -17406,7 +17406,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b939d896-cae3-4b3c-ae81-5449c2afcb34")
+			(uuid "a7162b86-5d70-4b3f-9ae1-a69cdf40fb8e")
 			(effects
 				(font
 					(size 1 1)
