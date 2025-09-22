@@ -2997,6 +2997,10 @@
 		(at 48.26 63.5)
 		(uuid "859634ae-ef51-4c36-b9e6-cd84a39afcf2")
 	)
+	(no_connect
+		(at 157.48 83.82)
+		(uuid "93f95579-972c-4294-a282-16248b84a2fe")
+	)
 	(wire
 		(pts
 			(xy 127 184.15) (xy 123.19 184.15)
@@ -8337,72 +8341,6 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feecac56-3f49-42e3-bcdf-13005f7ade7c")
-		(property "Reference" "#PWR062"
-			(at 157.48 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbd4e34c-9683-4d43-bae1-98206c4f0987")
-		)
-		(instances
-			(project "leme_macropad"
-				(path "/a37365a2-c635-4451-9354-78f9e753d687"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
