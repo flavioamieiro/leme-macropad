@@ -3413,16 +3413,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 58.42 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825e9ee4-2b85-4ca7-9991-b8c8cc872536")
-	)
-	(wire
-		(pts
 			(xy 123.19 165.1) (xy 127 165.1)
 		)
 		(stroke
@@ -3673,16 +3663,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 172.72) (xy 123.19 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e50a8990-56b1-49bc-9a0a-4ab42569e25d")
-	)
-	(wire
-		(pts
 			(xy 125.73 33.02) (xy 125.73 35.56)
 		)
 		(stroke
@@ -3720,16 +3700,6 @@
 			(type default)
 		)
 		(uuid "f32175a0-72f4-4308-9e5a-67c0426bce51")
-	)
-	(wire
-		(pts
-			(xy 54.61 170.18) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5373392-26cd-4623-ac2b-62c7109b6458")
 	)
 	(wire
 		(pts
@@ -3828,28 +3798,6 @@
 		(uuid "18e9830a-a086-4777-9efc-71987f2ba4d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.9242 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D+"
-		(shape input)
-		(at 58.42 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b464387-02a6-47e6-9c9b-3f2eff3f0f1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0252 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,28 +4203,6 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
-		(shape input)
-		(at 58.42 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afb05212-4d87-49ea-879e-35c52414e5cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0252 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_10"
 		(shape input)
 		(at 127 187.96 0)
@@ -4290,28 +4216,6 @@
 		(uuid "d4f2d7bb-a0f5-4f97-9aee-529dd27e5bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.8471 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_6"
-		(shape input)
-		(at 127 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e51f7d87-19c4-4fd4-bd1a-14ade8c443ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6376 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,71 +4484,6 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "131f91a6-5b9b-480b-9491-efa32fafcb20")
-		(property "Reference" "TP4"
-			(at 47.498 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 51.308 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32b36e9b-64e2-4519-9954-aba9ed5d47ab")
-		)
-		(instances
-			(project "leme_macropad"
-				(path "/a37365a2-c635-4451-9354-78f9e753d687"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5886,71 +5725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 123.19 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65551a38-2183-45ec-9922-c3c62f58d6d9")
-		(property "Reference" "TP20"
-			(at 116.078 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 119.888 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 123.19 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e2ab693-c1af-4e63-b07b-59b95c286789")
-		)
-		(instances
-			(project "leme_macropad"
-				(path "/a37365a2-c635-4451-9354-78f9e753d687"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 80.01 50.8 0)
 		(unit 1)
@@ -6291,71 +6065,6 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84ab8b84-1e67-42d3-aac8-d806e2f3cf36")
-		(property "Reference" "TP5"
-			(at 47.498 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 51.308 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80268e29-5c03-4a84-ab0e-877031cd36f5")
-		)
-		(instances
-			(project "leme_macropad"
-				(path "/a37365a2-c635-4451-9354-78f9e753d687"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

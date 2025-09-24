@@ -2506,6 +2506,10 @@
 		(uuid "33b18834-5af6-4e4b-bfbc-feee47ec9c37")
 	)
 	(no_connect
+		(at 256.54 68.58)
+		(uuid "39c37c88-6632-4057-ad7f-74f1fe9d6cf2")
+	)
+	(no_connect
 		(at 256.54 81.28)
 		(uuid "580992ed-de24-489e-be27-f8cdacf4b02e")
 	)
@@ -3232,16 +3236,6 @@
 			(type default)
 		)
 		(uuid "8b71db3f-652e-47f5-aa50-cfc585af2636")
-	)
-	(wire
-		(pts
-			(xy 256.54 68.58) (xy 264.16 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba851ae-aa9a-4a4c-8cf4-73f9fba7c8c7")
 	)
 	(wire
 		(pts
@@ -4477,28 +4471,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_6"
-		(shape input)
-		(at 264.16 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd45baeb-b7be-4231-a3fc-bb56d6283a32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.7976 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
