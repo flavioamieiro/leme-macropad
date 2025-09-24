@@ -221,7 +221,7 @@
 		(at 119 112.5)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "7906e7ae-73ee-4de3-9c03-0a0db1ec404d")
@@ -1424,7 +1424,7 @@
 		(at 203.585 109.95 180)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D16"
+		(property "Reference" "D5"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a7e9b96b-fe43-4b0c-ad44-b8aa7f2ea940")
@@ -1811,7 +1811,7 @@
 		(at 119 98.15)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D11"
+		(property "Reference" "D1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "26372cde-af46-486e-b1b3-5bb7e70feba8")
@@ -2093,7 +2093,7 @@
 		(at 138.05 98.15)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D10"
+		(property "Reference" "D2"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "e532d409-dbdb-420b-9933-38b71fd32b96")
@@ -2375,7 +2375,7 @@
 		(at 115.644047 70.38)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
 			(uuid "8adc7f98-a76c-4a1d-9f29-35f26a3c4802")
@@ -2966,7 +2966,7 @@
 		(at 157.1 112.5)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "6153ea49-6f95-4bd0-9e50-5cc989438db5")
@@ -4169,7 +4169,7 @@
 		(at 157.1 98.15)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a4cc0f83-7bb2-4035-b1bb-7846378e2747")
@@ -4451,7 +4451,7 @@
 		(at 157.1 93.45)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "ff40c749-12b5-408b-8dfe-663d2f06a0da")
@@ -5654,7 +5654,7 @@
 		(at 138.05 112.5)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "eaf65b3f-93ae-4945-9cb5-52ca53f108df")
@@ -6857,7 +6857,7 @@
 		(at 176.75 110 180)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D15"
+		(property "Reference" "D4"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "9472c7c4-a366-47b8-a4e6-735b31b1e462")
@@ -7139,7 +7139,7 @@
 		(at 119 117.2 180)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D12"
+		(property "Reference" "D6"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "1f0c4f60-efcf-4ae8-82f9-c454042c8323")
@@ -7421,7 +7421,7 @@
 		(at 138.05 117.2 180)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D13"
+		(property "Reference" "D7"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ec5f2cf9-5677-4041-bb5d-269302ad7976")
@@ -7703,7 +7703,7 @@
 		(at 182.5 107.5)
 		(descr "Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
-		(property "Reference" "SW7"
+		(property "Reference" "SW4"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
 			(uuid "7b6a9646-589a-4244-b1cd-09c59abaea75")
@@ -8927,7 +8927,7 @@
 		(at 157.1 117.2 180)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D14"
+		(property "Reference" "D8"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "6e2c91ea-70a4-43d1-ba0c-a28018323ebb")
@@ -9209,7 +9209,7 @@
 		(at 138.05 93.45)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "345a9a7f-9cf0-48a5-89ff-90aa8b0dabf5")
@@ -11614,7 +11614,7 @@
 		(at 149.9 89.1 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D5"
+		(property "Reference" "D9"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "b77de969-370b-46c9-a1e4-27f870942476")
@@ -11930,7 +11930,7 @@
 		(at 186.69 82.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP23"
+		(property "Reference" "TP10"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "3c4a6a83-91eb-474d-a2e5-0682152e112c")
@@ -12038,7 +12038,7 @@
 		(at 171.1 83.7 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "1c31081d-31da-4841-b83b-9cd6fe5b243d")
@@ -12242,7 +12242,7 @@
 		(at 127.5 113.1 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP14"
+		(property "Reference" "TP22"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "5d35da82-040f-4652-908e-55164a9e110f")
@@ -12350,7 +12350,7 @@
 		(at 171.1 77.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "1bc15f80-122b-4beb-b599-86005400b67a")
@@ -12554,7 +12554,7 @@
 		(at 147.06 76.2 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP28"
+		(property "Reference" "TP6"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "957995d2-45e3-4d94-a224-467ea18bdafd")
@@ -12662,7 +12662,7 @@
 		(at 179.8 106.6625 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 0 1.17 270)
 			(layer "B.SilkS")
 			(uuid "70196556-30d1-4c26-875a-a616dfc5aeef")
@@ -12866,7 +12866,7 @@
 		(at 176.1 68.3 180)
 		(descr "SMT SPST pushbutton")
 		(tags "button pushbutton SPST")
-		(property "Reference" "SW10"
+		(property "Reference" "SW8"
 			(at 0 3 0)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -13543,7 +13543,7 @@
 		(at 155.75 78.946559 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "6df11942-8036-46ec-90d8-9831ce4aa23d")
@@ -13747,7 +13747,7 @@
 		(at 167.7 102.9 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP13"
+		(property "Reference" "TP19"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "091659d0-0b9b-4a2c-b7c1-838188327569")
@@ -13855,7 +13855,7 @@
 		(at 189.3 86.52)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP3"
+		(property "Reference" "TP11"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "895e9ed7-7b6f-4b21-82d8-fa2892e2fb5e")
@@ -13963,7 +13963,7 @@
 		(at 111.9 108.15 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D2"
+		(property "Reference" "D15"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "a5658151-43a8-4139-a257-a3c41ccceb86")
@@ -14279,7 +14279,7 @@
 		(at 189.3 89.06)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP2"
+		(property "Reference" "TP12"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "ad02e5dc-bb90-4b81-8689-0cf4bcebb8e5")
@@ -14387,7 +14387,7 @@
 		(at 189.4 67.9)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R5"
+		(property "Reference" "R0"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(uuid "d1480e37-3e27-444e-be86-31c7177d90d6")
@@ -14591,7 +14591,7 @@
 		(at 178.9 75.510356 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "4a5af25a-3ca1-4eee-929d-5aea64c61cb9")
@@ -14795,7 +14795,7 @@
 		(at 179.7 90.4975 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C6"
+		(property "Reference" "C15"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "a089d84a-c1fa-4a1a-821c-c70f99de67ee")
@@ -15203,7 +15203,7 @@
 		(at 189.23 82.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP24"
+		(property "Reference" "TP9"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "7c710b0b-8b9d-400d-9ef4-444027a9c970")
@@ -15311,7 +15311,7 @@
 		(at 176.7 76.8 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(uuid "5d6bb2df-9973-409a-a43c-08795aa7477c")
@@ -15515,7 +15515,7 @@
 		(at 186.8 68.5 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(uuid "61957ab7-4c27-4973-9bac-a803086c50c8")
@@ -15923,7 +15923,7 @@
 		(at 147.06 73.66 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP26"
+		(property "Reference" "TP4"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "e7930ea8-45aa-423a-a7ed-b7a03215639b")
@@ -16031,7 +16031,7 @@
 		(at 204.5 113.6 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP18"
+		(property "Reference" "TP23"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "e0efa8e5-1d3d-4bd3-964a-e453d350cf37")
@@ -16139,7 +16139,7 @@
 		(at 182.5 116.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP10"
+		(property "Reference" "TP25"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "10059612-51b8-4011-b8bd-d3f3a5181b04")
@@ -16247,7 +16247,7 @@
 		(at 165.6 113.1 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP16"
+		(property "Reference" "TP20"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "b48a7ffb-a62e-48dc-9948-edeb24fb1025")
@@ -16356,7 +16356,7 @@
 		(at 159 68.675)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 0 5.5 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -16733,7 +16733,7 @@
 		(at 174.7 76.8 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C16"
+		(property "Reference" "C3"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "21d5676b-e157-4a29-ac31-95ab6be575bc")
@@ -16937,7 +16937,7 @@
 		(at 171.1 80.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "ee834e35-bf56-4fe8-8789-56d88da7c562")
@@ -17141,7 +17141,7 @@
 		(at 183.2 83.7)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "da551c5e-376e-4c4a-b798-81242948e4a5")
@@ -17345,7 +17345,7 @@
 		(at 189.23 80.247094)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP22"
+		(property "Reference" "TP7"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "65cb118f-0ac8-4015-889e-10ce3c70f664")
@@ -17656,7 +17656,7 @@
 		(at 171.1 78.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "cd205b68-e1d8-4d43-9b16-aa01528e054a")
@@ -17860,7 +17860,7 @@
 		(at 130.9 108.15 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D4"
+		(property "Reference" "D14"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "f5bdc5d4-925e-4cb1-85d9-03e60c6585f1")
@@ -18176,7 +18176,7 @@
 		(at 189.4 70 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(uuid "ebb2df92-fec7-4006-ab99-81f6d2e3e480")
@@ -18380,7 +18380,7 @@
 		(at 146.6 113.1 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP15"
+		(property "Reference" "TP21"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "0fb2745e-3769-4fa2-b434-e9b37ca61800")
@@ -18488,7 +18488,7 @@
 		(at 155.7375 76.696559 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "af2d658e-f1e9-480d-a343-41cbd5c41c6e")
@@ -18692,7 +18692,7 @@
 		(at 179.8 113.1 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(uuid "4ec8c60c-23e3-4b8d-8e6f-da66f63f91ce")
@@ -18896,7 +18896,7 @@
 		(at 149.6 73.66 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP27"
+		(property "Reference" "TP3"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "8dd40dca-a20a-4754-9f31-937dc9cbe7b1")
@@ -19004,7 +19004,7 @@
 		(at 173.7 76.8 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C17"
+		(property "Reference" "C4"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "52546771-ae65-4bfa-9812-d1a8adf9d83a")
@@ -19208,7 +19208,7 @@
 		(at 149.9 108.15 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "4139528a-23a0-4829-8cec-6af093507ea8")
@@ -19524,7 +19524,7 @@
 		(at 179.94 102.6 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP25"
+		(property "Reference" "TP17"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "70f1b266-d2a6-4118-a342-9f2011e01de2")
@@ -19632,7 +19632,7 @@
 		(at 175.7 76.8 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
 			(uuid "bf0ee909-ae19-46ed-a421-eb61dfc7b211")
@@ -19836,7 +19836,7 @@
 		(at 182.5 103.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP11"
+		(property "Reference" "TP16"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "79a4c92e-09ca-43db-a481-5bf200ba6a12")
@@ -19944,7 +19944,7 @@
 		(at 149.6 76.2 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP29"
+		(property "Reference" "TP5"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "761c6afe-e6df-409a-8ccd-598960810b58")
@@ -20052,7 +20052,7 @@
 		(at 177.897437 75.510356 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "5048572c-e86c-41ad-a08c-d13b918b360e")
@@ -20256,7 +20256,7 @@
 		(at 161.5 96.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP19"
+		(property "Reference" "TP14"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "0474fcd5-55ae-405b-96ae-acdecfe8d02e")
@@ -20364,7 +20364,7 @@
 		(at 189.3 91.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP1"
+		(property "Reference" "TP13"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "1acc3df2-6dc6-4396-a290-57793b5f7550")
@@ -20472,7 +20472,7 @@
 		(at 111.9 89.1 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D1"
+		(property "Reference" "D11"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "47994603-65ab-4691-9edd-1b0a467ab060")
@@ -20788,7 +20788,7 @@
 		(at 197 116.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP17"
+		(property "Reference" "TP24"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "1d4dd8ab-936c-4572-9fc2-396d230a71c9")
@@ -20896,7 +20896,7 @@
 		(at 130.9 89.1 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D3"
+		(property "Reference" "D10"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(uuid "fe155534-a8ac-4322-b3b9-7bdad9e6db5e")
@@ -21212,7 +21212,7 @@
 		(at 178.1 88.7975 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 0 1.17 270)
 			(layer "B.SilkS")
 			(uuid "ded2a00e-40d3-457f-a0e3-52333a08e00c")
@@ -21416,7 +21416,7 @@
 		(at 195.35 101)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "50e67d71-68ac-4198-970b-aecdc2a101d6")
@@ -21732,7 +21732,7 @@
 		(at 177.1375 82.7 180)
 		(descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 0 4.83 0)
 			(layer "B.SilkS")
 			(uuid "15f2ff6a-9b74-4733-aae3-5e3d8c8fec38")
@@ -22721,7 +22721,7 @@
 		(at 111.9 70.38 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "04cd0952-68db-4aa9-9391-dabe028b36a2")
@@ -22829,7 +22829,7 @@
 		(at 167.7 100.36 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP12"
+		(property "Reference" "TP15"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "de36362c-72fa-460f-8621-b013a27debba")
@@ -22936,7 +22936,7 @@
 		(uuid "dc811371-ba19-47a0-a8cd-f6bcff0b9e09")
 		(at 179.1 92.9475 180)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
-		(property "Reference" "Y1"
+		(property "Reference" "Y0"
 			(at 0 2.45 0)
 			(layer "B.SilkS")
 			(uuid "eb5819e5-2902-425e-bb66-2d1d7b0b5d7d")
@@ -23105,7 +23105,7 @@
 		(at 180.9 70.3 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP8"
+		(property "Reference" "TP0"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "3ef3041a-96a5-4e07-bf19-9be94934b89b")
@@ -23213,7 +23213,7 @@
 		(at 186.4 73.7 180)
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
-		(property "Reference" "U3"
+		(property "Reference" "U0"
 			(at 0 3.6 0)
 			(layer "B.SilkS")
 			(uuid "e822e3a0-c84e-4e0f-bd4b-c08ff0cebe00")
@@ -23641,7 +23641,7 @@
 		(at 186.69 80.247094)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP21"
+		(property "Reference" "TP8"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "1fc252e0-9fe1-4c4a-b47b-7d73188b1069")
@@ -23749,7 +23749,7 @@
 		(at 169.0625 74.1)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 0 -2.35 0)
 			(layer "B.SilkS")
 			(uuid "b363c19f-d4d8-4a26-a00f-6c32b324dce5")
@@ -24079,7 +24079,7 @@
 		(at 177.5 90.4975)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C7"
+		(property "Reference" "C16"
 			(at 0 1.16 180)
 			(layer "B.SilkS")
 			(uuid "f115b6f3-267d-4a7b-8d75-338b8aaf2ec6")
@@ -24283,7 +24283,7 @@
 		(at 182.780952 69.45 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C4"
+		(property "Reference" "C0"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "31793bdd-c5f7-460e-a5de-6bbce78f37b7")
@@ -24487,7 +24487,7 @@
 		(at 176.9 88.5325 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(uuid "ecbf4692-0b44-48e0-8166-f7f29a9adf6b")
@@ -24691,7 +24691,7 @@
 		(at 177.4 102.6 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP9"
+		(property "Reference" "TP18"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "bbcbf4b8-d6a8-40e2-bde4-d53426cca4e4")
@@ -24799,7 +24799,7 @@
 		(at 111.9 72.92 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP7"
+		(property "Reference" "TP2"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(uuid "61034480-1a7e-4349-ab6b-2818008d82c7")
@@ -25111,7 +25111,7 @@
 		(at 151.25 70.2 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(uuid "a408ce09-7a1c-4c83-8e92-28f3b1caed49")

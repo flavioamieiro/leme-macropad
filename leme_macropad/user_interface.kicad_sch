@@ -3343,7 +3343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15aa0013-e550-41b0-a5a8-ce862cbd72f2")
-		(property "Reference" "D14"
+		(property "Reference" "D8"
 			(at 211.836 88.646 0)
 			(effects
 				(font
@@ -3403,7 +3403,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D14")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc3e4b1-9634-4d8d-bdb6-574b5cede67b")
-		(property "Reference" "SW10"
+		(property "Reference" "SW8"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -3603,7 +3603,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW10")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3684,7 +3684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32b4ac32-6ae6-4749-9122-e51ce3b9c19d")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 186.436 56.896 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 		(instances
 			(project ""
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35385999-2ddf-488a-bccb-13522152725a")
-		(property "Reference" "D12"
+		(property "Reference" "D6"
 			(at 262.636 56.896 0)
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D12")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3835,7 +3835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36c11ce8-e626-48e3-a7b7-006bb6400329")
-		(property "Reference" "D5"
+		(property "Reference" "D9"
 			(at 90.17 88.8999 90)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D5")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3922,7 +3922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3897ef33-7076-43d4-b751-a4c2650a1806")
-		(property "Reference" "D16"
+		(property "Reference" "D5"
 			(at 262.636 88.646 0)
 			(effects
 				(font
@@ -3982,7 +3982,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D16")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436d266f-9783-4435-9302-2da2e6dd2d9f")
-		(property "Reference" "D3"
+		(property "Reference" "D10"
 			(at 63.5 88.8999 90)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D3")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b811971-5c5d-48bc-b106-d73682a48741")
-		(property "Reference" "D2"
+		(property "Reference" "D15"
 			(at 36.83 119.3799 90)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D2")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4505,7 +4505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711a2319-f05c-4e99-8c63-27add1b5f7c6")
-		(property "Reference" "D13"
+		(property "Reference" "D7"
 			(at 186.436 88.646 0)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D13")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f6cc5c-6dd7-42d7-972a-47e9ebdde2f0")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 127 48.2599 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ecd289-90ab-4ef3-ab3c-777180c0a95d")
-		(property "Reference" "D10"
+		(property "Reference" "D2"
 			(at 211.836 56.896 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D10")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4926,7 +4926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "880b5cc8-2a89-4069-91ea-4b8858040eee")
-		(property "Reference" "D11"
+		(property "Reference" "D1"
 			(at 237.236 56.896 0)
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D11")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f2e2ed8-fe66-4f5d-a4fa-1688493ef111")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 146.05 166.37 90)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f5ffe3c-2a94-4e92-9976-fbd4e18e5098")
-		(property "Reference" "D15"
+		(property "Reference" "D4"
 			(at 237.236 88.646 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D15")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90330b3d-b194-4944-86f7-3860f7ea470e")
-		(property "Reference" "SW7"
+		(property "Reference" "SW4"
 			(at 115.57 68.072 0)
 			(effects
 				(font
@@ -5343,7 +5343,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW7")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90893f11-9b26-446a-b809-03a1c9fef3f7")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 116.84 88.8999 90)
 			(effects
 				(font
@@ -5431,7 +5431,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D7")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5447,7 +5447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9684746d-f980-4ddd-8926-516ef2da1945")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 41.91 107.95 0)
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5583,7 +5583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dbb854f-70a1-4988-9c46-d685187a4742")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -5635,7 +5635,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5651,7 +5651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13cbc83-3cac-40ae-be80-d2ed0cdee499")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a33a6139-b428-4d28-98d5-eae228c5cc54")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 55.88 165.0999 0)
 			(effects
 				(font
@@ -5779,7 +5779,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5863,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2235276-2276-4e5e-81fd-c220c18eb2aa")
-		(property "Reference" "D1"
+		(property "Reference" "D11"
 			(at 36.83 88.8999 90)
 			(effects
 				(font
@@ -5935,7 +5935,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6017,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5277a43-e2c7-483c-889e-53b518ac8342")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 90.17 119.3799 90)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c560697e-b1d8-4963-bc84-55c7f4af0e46")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 116.84 48.2599 0)
 			(effects
 				(font
@@ -6292,7 +6292,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6374,7 +6374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea123a3-dda8-44b9-a29a-3b8c541fc4fc")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 95.25 107.95 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09b4c52-415a-4dbd-80c6-6c651203f55a")
-		(property "Reference" "D4"
+		(property "Reference" "D14"
 			(at 63.5 119.3799 90)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "D4")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6530,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0dbf9ee-5c78-43da-9e96-9c4cdbd45930")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 		(instances
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
