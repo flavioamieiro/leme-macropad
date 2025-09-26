@@ -12749,7 +12749,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "19f40667-6fcb-4ad5-9ab7-8ab957bdb3fd")
-		(at 130.76 44.5 180)
+		(at 160.9 67.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -16118,13 +16118,13 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "5f6cde1e-d373-4ae8-99c3-160092f44fd7")
-		(at 130.76 41.96 180)
+		(at 173.8 75.9 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
 			(at 0 1.448 0)
 			(layer "B.SilkS")
-			(uuid "e7930ea8-45aa-423a-a7ed-b7a03215639b")
+			(uuid "74067026-9866-4a00-b53d-408dfbc55408")
 			(effects
 				(font
 					(size 1 1)
@@ -16136,7 +16136,7 @@
 		(property "Value" "TestPoint"
 			(at 0 -1.55 0)
 			(layer "B.Fab")
-			(uuid "74d8e23b-3bfc-47b9-b821-ce5c109cbb9d")
+			(uuid "8fa876ec-9d18-49e8-9a58-c384a9175503")
 			(effects
 				(font
 					(size 1 1)
@@ -16150,7 +16150,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dffcff0b-ee6f-414d-8815-4f93164c95f4")
+			(uuid "7684d687-0940-409d-a9e9-d54d325dbf96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16164,7 +16164,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "628f9bd6-e3e8-4836-a9dd-8f904cb3757e")
+			(uuid "2ae85eb7-e42f-42f0-8bbf-cd755f889cdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18888,7 +18888,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "9ff06552-5e01-4da6-9456-8327a7a55e6e")
-		(at 133.3 41.96 180)
+		(at 176.34 75.9 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -19936,7 +19936,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "ac058006-3cb6-4fe2-acc1-11f39d4303a5")
-		(at 133.3 44.5 180)
+		(at 163.44 67.5 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -25555,6 +25555,14 @@
 		(uuid "3974af2e-0eab-42ca-8c17-be182782553a")
 	)
 	(segment
+		(start 173.8 73.9)
+		(end 173.8 75.9)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "3def1346-16f2-4004-b3f4-b409c3c1e55f")
+	)
+	(segment
 		(start 166.262499 75.8)
 		(end 165.6 75.8)
 		(width 0.5)
@@ -25987,12 +25995,28 @@
 		(uuid "637ea76c-5ba9-4a04-8b80-d7455a6b2224")
 	)
 	(segment
+		(start 161.9 69.8)
+		(end 161.9 69.04)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "6689727b-5694-4bc1-93d1-f640c17b8878")
+	)
+	(segment
 		(start 141 68.765)
 		(end 141 67.6)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "76e37c7a-efce-4f84-a8cc-bee027a618e7")
+	)
+	(segment
+		(start 175.6 73.4)
+		(end 174.6 73.4)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "7b6da31f-4d7b-4950-968c-018c70ccfc1a")
 	)
 	(segment
 		(start 140 68.765)
@@ -26035,6 +26059,14 @@
 		(uuid "9f865f46-ede8-421d-8854-648134e52071")
 	)
 	(segment
+		(start 176.34 75.9)
+		(end 176.34 74.14)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "9ff20680-2afb-40af-a863-897b8ca6bb78")
+	)
+	(segment
 		(start 129 72.081587)
 		(end 128.993413 72.075)
 		(width 0.5)
@@ -26067,12 +26099,28 @@
 		(uuid "afe8714c-fca7-42c7-9fbe-00af145162d7")
 	)
 	(segment
+		(start 161.9 69.04)
+		(end 163.44 67.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "bcf75770-ae44-46d0-9cab-74d94a1b684d")
+	)
+	(segment
 		(start 135.43 74.43)
 		(end 135.4 74.4)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "bd782aa7-adce-403e-92cf-8e5442159314")
+	)
+	(segment
+		(start 176.34 74.14)
+		(end 175.6 73.4)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "c4a6a3fc-8ea1-4aed-99e3-7c53313a0b5c")
 	)
 	(segment
 		(start 144.6 76.129937)
@@ -26195,6 +26243,14 @@
 		(uuid "20b61da2-944f-47f0-b36c-ff52f8e94ebd")
 	)
 	(segment
+		(start 159.7825 68.6175)
+		(end 160.9 67.5)
+		(width 0.8)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "220f85c0-a43d-4989-80da-05443ba7c320")
+	)
+	(segment
 		(start 138.03 71.9625)
 		(end 138.03 69.9)
 		(width 0.2)
@@ -26257,6 +26313,14 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "95213d48-df81-4893-9404-ae568ff1d991")
+	)
+	(segment
+		(start 159.7825 69.8)
+		(end 159.7825 68.6175)
+		(width 0.8)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "961783f4-064f-4e4b-9fb4-5b349d416f30")
 	)
 	(segment
 		(start 150.8275 83.505)
