@@ -1841,6 +1841,12 @@
 		(uuid "c5266ae1-3cea-4520-ad92-7ba6849ccfa6")
 	)
 	(junction
+		(at 64.77 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c576a5fb-5caa-47e8-a4e9-3847499accdd")
+	)
+	(junction
 		(at 34.29 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1884,6 +1890,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 148.59) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08092a17-fa28-4acf-b9cc-2ec395c9c44d")
+	)
+	(wire
+		(pts
 			(xy 60.96 92.71) (xy 60.96 95.25)
 		)
 		(stroke
@@ -1911,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "0e0d1309-0e78-4a8e-b741-c3a006a363c4")
+	)
+	(wire
+		(pts
+			(xy 64.77 139.7) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e367456-0b84-4fad-be89-1c598e60e73a")
 	)
 	(wire
 		(pts
@@ -2024,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 140.97) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb313ba-067b-4e19-9482-823f34d07dde")
+	)
+	(wire
+		(pts
 			(xy 165.1 172.72) (xy 167.64 172.72)
 		)
 		(stroke
@@ -2061,6 +2097,16 @@
 			(type default)
 		)
 		(uuid "24b1b5e8-b4e3-4d44-8342-87da75edcc14")
+	)
+	(wire
+		(pts
+			(xy 67.31 140.97) (xy 67.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25666e3f-5078-4900-8a9b-552bb3b213a1")
 	)
 	(wire
 		(pts
@@ -2191,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "3e910f59-f91d-4526-9e8d-aa1e29368b24")
+	)
+	(wire
+		(pts
+			(xy 62.23 148.59) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9581cd-4827-4379-b10f-9ab6ddbe234e")
 	)
 	(wire
 		(pts
@@ -2454,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 157.48) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96086b30-737d-44e3-83c4-6e326e59bb90")
+	)
+	(wire
+		(pts
 			(xy 241.3 86.36) (xy 241.3 87.63)
 		)
 		(stroke
@@ -2521,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "a31a0786-db94-4da6-9c4b-52c88d196fb1")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6897794-61bf-47c7-8ac6-fbe4b222d5cf")
 	)
 	(wire
 		(pts
@@ -2684,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 143.51) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9e9755-7d03-4347-96d8-ad55a1a11135")
+	)
+	(wire
+		(pts
 			(xy 167.64 172.72) (xy 167.64 176.53)
 		)
 		(stroke
@@ -2841,6 +2927,16 @@
 			(type default)
 		)
 		(uuid "eda6af4f-a628-4593-b771-79ed9df0feb0")
+	)
+	(wire
+		(pts
+			(xy 68.58 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1433dc-eed7-45de-a5cb-c0004129693b")
 	)
 	(wire
 		(pts
@@ -3024,6 +3120,28 @@
 			)
 		)
 	)
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 68.58 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e1cd1d0-e7c8-4d9c-8d40-fe300026626a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3342 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW 1"
 		(shape input)
 		(at 26.67 95.25 180)
@@ -3108,6 +3226,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C0_SDA"
+		(shape input)
+		(at 68.58 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d63f597f-9575-4da4-8df2-b9f2550c44d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3947 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3262,6 +3402,76 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 67.31 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f5df69-22a2-4106-8638-53a3cb0b9f94")
+		(property "Reference" "R11"
+			(at 69.85 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 69.85 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2bf527-4539-454f-b0a3-d530b5957bd4")
+		)
+		(pin "2"
+			(uuid "e536e87f-2288-43e4-8ca4-c9b6c9f23f91")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3989,6 +4199,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.77 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fc5993d-a4b4-42c5-871a-1923c7ca112d")
+		(property "Reference" "#PWR041"
+			(at 64.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a52f33-38f7-40e7-8a11-377c4737bd6c")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 266.7 86.36 0)
 		(unit 1)
@@ -4425,6 +4701,76 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 62.23 146.05 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d61ddd0-f911-460e-b82a-583748e1068d")
+		(property "Reference" "R12"
+			(at 59.69 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 59.69 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6255ee1e-b85f-4e5c-893c-0fe8284d9544")
+		)
+		(pin "2"
+			(uuid "0f0c2c92-1065-4b1f-9be6-9f7ed12ca69d")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "R12")
 					(unit 1)
 				)
 			)
