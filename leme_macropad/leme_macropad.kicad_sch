@@ -7666,10 +7666,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f24ae830-7711-4c39-81c6-c3119c33d78a")
 		(property "Reference" "GL1"
-			(at 171.45 47.0084 0)
+			(at 161.544 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7677,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 171.45 48.9135 0)
+			(at 161.544 78.6131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
