@@ -2090,6 +2090,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244ba9b3-5901-4827-b28c-e760650ebda7")
+	)
+	(wire
+		(pts
 			(xy 60.96 95.25) (xy 87.63 95.25)
 		)
 		(stroke
@@ -2700,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 29.21) (xy 205.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a9d227-5a14-4304-a916-3127e43bc386")
+	)
+	(wire
+		(pts
 			(xy 95.25 172.72) (xy 100.33 172.72)
 		)
 		(stroke
@@ -2957,6 +2977,16 @@
 			(type default)
 		)
 		(uuid "f5165eb9-b6f6-45e3-8d72-19d4d2f471db")
+	)
+	(wire
+		(pts
+			(xy 213.36 36.83) (xy 218.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e5af1a-3d8d-4e02-98e0-ebb9fa4faa49")
 	)
 	(wire
 		(pts
@@ -3226,6 +3256,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DATA_IN"
+		(shape input)
+		(at 218.44 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c11306a4-7c18-46d5-9f95-8f92b96f0ef9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.1576 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6200,6 +6252,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab91f684-3136-4c2a-8a93-342caf2b64c3")
+		(property "Reference" "#PWR062"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7d70b9-dabc-4893-952e-4a7544dcdc17")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 34.29 90.17 90)
 		(unit 1)
@@ -6348,6 +6466,74 @@
 			(project "leme_macropad"
 				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 210.82 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b3a08456-a255-4fbd-8d50-ed831706deca")
+		(property "Reference" "R13"
+			(at 210.82 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 210.82 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ddba52c-ee48-4e12-bcfe-a8ae312b935e")
+		)
+		(pin "2"
+			(uuid "94b89c8f-cfc1-4ee0-89d0-5a70ed149371")
+		)
+		(instances
+			(project "leme_macropad"
+				(path "/a37365a2-c635-4451-9354-78f9e753d687/b6fad1bd-9b8b-42cb-b41f-ac701051e19c"
+					(reference "R13")
 					(unit 1)
 				)
 			)
