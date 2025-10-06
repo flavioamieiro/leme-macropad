@@ -31826,6 +31826,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 184.19 76.1)
+		(end 189.19 81.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "b890e4b5-e374-4c67-a15a-f1ed871540eb")
+	)
 	(gr_line
 		(start 109 119)
 		(end 109 68)
