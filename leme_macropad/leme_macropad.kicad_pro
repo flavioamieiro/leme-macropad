@@ -87,6 +87,22 @@
         [
           "courtyards_overlap|155585000|96905000|90d10952-0728-4a54-bfe4-6d1a2f6ac5b0|9c81a6be-705e-4d5f-bffb-8503ec98cd2b",
           "The diode will not be populated, and the SW6 has space for it, even if the footprint doesn't show"
+        ],
+        [
+          "hole_clearance|168350000|71930000|7548ff04-4b37-4ab2-bffe-ff3a8f1536d4|570eb7e1-a5ff-4096-b611-1277f7051860",
+          "This error is in Kicad's footprint, and I've already used this connectors in other boards with no issues."
+        ],
+        [
+          "hole_clearance|168350000|71930000|7548ff04-4b37-4ab2-bffe-ff3a8f1536d4|efbaa055-05eb-4d79-9776-89b8b23ab49a",
+          "This error is in Kicad's footprint, and I've already used this connectors in other boards with no issues."
+        ],
+        [
+          "hole_clearance|174450000|71930000|08089d48-9097-4de0-be2d-3c5ff016b723|444694f4-e369-46d2-8378-0ae334bc2b30",
+          "This error is in Kicad's footprint, and I've already used this connectors in other boards with no issues."
+        ],
+        [
+          "hole_clearance|174450000|71930000|08089d48-9097-4de0-be2d-3c5ff016b723|d2f7c04c-b113-4707-935f-72683568f27a",
+          "This error is in Kicad's footprint, and I've already used this connectors in other boards with no issues."
         ]
       ],
       "meta": {
