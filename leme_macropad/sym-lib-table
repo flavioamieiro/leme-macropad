@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ipe_logo")(type "KiCad")(uri "${KIPRJMOD}/ipe_logo.kicad_sym")(options "")(descr ""))
+)

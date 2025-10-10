@@ -4,8 +4,12 @@ fp-lib-table
 *.zip
 !output/*.zip
 *.kicad_prl
-*-bak
+*bak
+*.lck
 __pycache__
 .python-version
 \#auto_saved_files#
 *.FCStd1
+*/production/
+
+fabrication-toolkit-options.json
